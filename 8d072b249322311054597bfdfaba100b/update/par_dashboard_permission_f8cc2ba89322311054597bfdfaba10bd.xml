@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="BEAUTIFY">33bce7a8d12231103b6dde045552ddb1</dashboard>
+        <group/>
+        <role display_value="x_1207268_beautify.Employee" name="x_1207268_beautify.Employee">4527ab249322311054597bfdfaba10f0</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 21:24:54</sys_created_on>
+        <sys_id>f8cc2ba89322311054597bfdfaba10bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>33bce7a8d12231103b6dde045552ddb1</sys_name>
+        <sys_package display_value="BEAUTIFY" source="x_1207268_beautify">8d072b249322311054597bfdfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</sys_scope>
+        <sys_update_name>par_dashboard_permission_f8cc2ba89322311054597bfdfaba10bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 21:24:54</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
