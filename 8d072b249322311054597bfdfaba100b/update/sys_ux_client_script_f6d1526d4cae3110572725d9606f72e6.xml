@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">f2d1526d80ae311085b12060cc4489f0</macroponent>
+        <name>Search result clicked</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const ACTION_NAME = event.payload.action.actionDispatch;
+    var route = 'landing';
+    if (ACTION_NAME == 'NAVIGATION_CATALOG_KB_ARTICLE' || ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_KB_ARTICLE') {
+        route = "article";
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'NAVIGATION' && event.payload.action.actionPayload.url !== "") {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else if (ACTION_NAME == 'NAVIGATION') {
+        var table = event.payload.action.actionPayload.table;
+        if (table == "kb_knowledge") {
+            route = "article";
+        } else if (table == "sc_cat_item" && event.payload.action.actionPayload.url == "") {
+            route = "catalog";
+        }
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_EXTERNAL') {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else return;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-16 17:21:41</sys_created_on>
+        <sys_id>f6d1526d4cae3110572725d9606f72e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search result clicked</sys_name>
+        <sys_package display_value="BEAUTIFY" source="x_1207268_beautify">8d072b249322311054597bfdfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</sys_scope>
+        <sys_update_name>sys_ux_client_script_f6d1526d4cae3110572725d9606f72e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:21:41</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

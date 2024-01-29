@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">1038d2e193ee311054597bfdfaba10d0</canvas>
+        <component display_value="now-record-list-connected-snapshot">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"table":"x_1207268_beautify_beautify","fixedQuery":"","listTitle":"All Active Tasks","columns":"","maxColumns":12,"query":"active=true","groupByField":"","limit":100,"hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>28</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:49:20</sys_created_on>
+        <sys_id>9438562593ee311054597bfdfaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BEAUTIFY" source="x_1207268_beautify">8d072b249322311054597bfdfaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</sys_scope>
+        <sys_update_name>par_dashboard_widget_9438562593ee311054597bfdfaba1043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:49:20</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</application>
+        <file_path/>
+        <instance_id>f42c467e1b4af15065324089bd4bcb5e</instance_id>
+        <instance_name>dev194707</instance_name>
+        <name>par_dashboard_widget_9438562593ee311054597bfdfaba1043</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">1038d2e193ee311054597bfdfaba10d0</canvas><component display_value="now-record-list-connected-snapshot">7219cee4e0177c3cf2e48d550ce0f71b</component><component_props>{"table":"x_1207268_beautify_beautify","fixedQuery":"","listTitle":"All Active Tasks","columns":"","maxColumns":12,"query":"active=true","groupByField":"","limit":100,"hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props><h>28</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-16 17:49:20</sys_created_on><sys_id>9438562593ee311054597bfdfaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="BEAUTIFY" source="x_1207268_beautify">8d072b249322311054597bfdfaba100b</sys_package><sys_policy/><sys_scope display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</sys_scope><sys_update_name>par_dashboard_widget_9438562593ee311054597bfdfaba1043</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-16 17:49:20</sys_updated_on><visualization/><w>48</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-655583842</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cd072b249322311054597bfdfaba1033</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:49:20</sys_created_on>
+        <sys_id>9038562593ee311054597bfdfaba1045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd9406df50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:49:20</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d4385625ebee3110700612a5d8815844</update_guid>
+        <update_guid_history>d4385625ebee3110700612a5d8815844:-655583842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5038562593ee311054597bfdfaba104d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:49:20</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0202bcae395849f883b6d28d1c865984</sys_id>
+        <sys_metadata>9438562593ee311054597bfdfaba1043</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BEAUTIFY" source="x_1207268_beautify">8d072b249322311054597bfdfaba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BEAUTIFY">8d072b249322311054597bfdfaba100b</sys_scope>
+        <sys_scope_delete display_value="">023a5b9ab19e4e7680107ab801bc4419</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9438562593ee311054597bfdfaba1043</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9438562593ee311054597bfdfaba1043">9038562593ee311054597bfdfaba1045</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:49:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
